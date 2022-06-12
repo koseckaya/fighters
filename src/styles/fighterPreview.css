@@ -1,0 +1,40 @@
+.fighter-preview___root {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 250px;
+}
+.fighter-preview___root img{
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.fighter-preview___right {
+  align-items: flex-end;
+  
+}
+.fighter-preview___right img{
+  transform: rotateY(180deg);
+  display: block;
+}
+
+.fighter-preview___left {
+  align-items: flex-start;
+}
+.fighter-preview___info-block{
+  font-size: 18px;
+  color: #f8d784;
+  border: 1px solid #81331a;
+  display: flex;
+  flex-direction: column;
+  background: rgba(0,0,0, 0.2);
+  padding: 10px 20px;
+
+}
+.fighter-preview___info{
+  text-transform: uppercase;
+}
+.fighter-preview___info-name{
+  color: #fb0101;
+  font-size: 20px;
+}

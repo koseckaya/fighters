@@ -1,8 +1,4 @@
-const API_URL = 'https://api.github.com/repos/oleksandr-danylchenko/street-fighter/contents/resources/api/fighters.json';
-const SECURITY_HEADERS = {
-  headers: {
-    authorization: "token %your_token%"
-  }
-};
+import App from './src/javascript/app';
+import './src/styles/styles.css';
 
-fetch(API_URL, SECURITY_HEADERS);
+App.startApp();
